@@ -1,1 +1,1 @@
-web: streamlit run complete_usl_system.py --server.port $PORT --server.address 0.0.0.0
+web: streamlit run working_streamlit_app.py --server.port $PORT --server.address 0.0.0.0

@@ -3,7 +3,7 @@ services:
     name: usl-medical-system
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run complete_usl_system.py --server.port $PORT --server.address 0.0.0.0
+    startCommand: streamlit run working_streamlit_app.py --server.port $PORT --server.address 0.0.0.0
     envVars:
       - key: PYTHONPATH
         value: /opt/render/project/src
